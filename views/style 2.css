@@ -1,0 +1,21 @@
+.form {
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+
+    form input {
+        width: 40%;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+
+    
+    button {
+        width: 20%;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 90px;
+
+
+}
