@@ -42,6 +42,14 @@ app.post("/login", (req, res) => {
   const { username, password } = req.body;
   const query = "SELECT * FROM user WHERE username = ? AND password = ?";
 
+  app.get("/home", function (req, res) {
+    if (req.session.uname) {
+      res.render("../views/home.ejs", { username: req.session.uname });
+    } else {
+      res.redirect("/login");
+    }
+  });
+
   db.query(query, [username, password], (err, results) => {
     if (err) throw err;
 
