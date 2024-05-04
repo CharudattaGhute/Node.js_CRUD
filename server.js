@@ -7,6 +7,7 @@ const path = require("path");
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, "public")));
 
 const db = mysql.createConnection({
   host: "localhost",
@@ -74,6 +75,11 @@ app.post("/register", (req, res) => {
     if (err) throw err;
     res.redirect("/login");
   });
+});
+
+app.get("/logout", function (req, res) {
+  req.session.destroy();
+  res.redirect("/login");
 });
 
 const PORT = process.env.PORT || 30000;
