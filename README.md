@@ -25,7 +25,7 @@ This project implements basic functionalities of an e-commerce website, includin
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/e-commerce-website.git
+   git clone https://github.com/CharudattaGhute/Node.js_CRUD.git
    ```
 
 2. Install dependencies:
