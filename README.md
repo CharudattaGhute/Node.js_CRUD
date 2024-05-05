@@ -33,6 +33,19 @@ This project implements basic functionalities of an e-commerce website, includin
    ```bash
    npm install express
    ```
+    ```bash
+   npm install express session
+   ```
+     ```bash
+   npm install body-parser
+   ```
+    ```bash
+   npm install mysql
+   ```
+    
+   ```bash
+   npm install path
+   ```
 
 3. Set up the MySQL database:
 
