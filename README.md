@@ -10,11 +10,11 @@ This project implements basic functionalities of an e-commerce website, includin
 
 ## Features
 
-- User authentication (login and registration)
-- Session management for logged-in users
-- Product listing with images, descriptions, and prices
-- Shopping cart functionality (add to cart, view cart)
-- Responsive design for various screen sizes
+- User authentication (login and registration).
+- Session management for logged-in users.
+- Product listing with images, descriptions, and prices.
+- Shopping cart functionality (add to cart, view cart).
+- Responsive design for various screen sizes.
 
 ## Prerequisites
 
